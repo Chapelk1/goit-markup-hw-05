@@ -134,7 +134,7 @@ a {
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 02, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list {
   display: flex;
@@ -272,6 +272,8 @@ a {
   width: 8px;
   height: 8px;
   fill: #000;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 0);
 }
 /* section 2 */
 .quality {
